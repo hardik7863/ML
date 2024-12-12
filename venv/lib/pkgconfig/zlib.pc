@@ -1,0 +1,13 @@
+prefix=/home/hardik/Desktop/ML/venv
+exec_prefix=/home/hardik/Desktop/ML/venv
+libdir=/home/hardik/Desktop/ML/venv/lib
+sharedlibdir=/home/hardik/Desktop/ML/venv/lib
+includedir=/home/hardik/Desktop/ML/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

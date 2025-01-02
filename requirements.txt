@@ -9,3 +9,5 @@ streamlit
 scikit-learn
 bs4
 plotly
+nltk
+
